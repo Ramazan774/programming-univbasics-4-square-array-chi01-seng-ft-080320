@@ -8,13 +8,13 @@ end
 end
 
 
-def squared_arrays (arrays)
-  arrays = [1,2,3,4]
-new_arrays = []
+def squared_arrays (nums)
+  nums = [1,2,3,4]
+new_nums = []
 counter =0
-while count < arrays.length do
-new_arrays.push(arrays[counter]**2)
-count +=1
+while counter < nums.length do
+new_nums.push(nums[counter]**2)
+counter +=1
 end
-return new_arrays
+return new_nums
 end
