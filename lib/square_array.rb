@@ -7,8 +7,9 @@ counter +=1
 end
 end
 
-arrays = [1,2,3,4]
+
 def squared_arrays (arrays)
+  arrays = [1,2,3,4]
 new_arrays = []
 count =0
 while count < arrays.length do
