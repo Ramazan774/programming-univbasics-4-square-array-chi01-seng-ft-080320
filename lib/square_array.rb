@@ -7,6 +7,16 @@ counter +=1
 end
 end
 
+def square_array (nummies)
+  nummies = [9,10,16,25]
+new_nummies = []
+counter =0
+while counter < nummies.length do
+new_nummies.push(nummies[counter]**2)
+counter +=1
+end
+return new_nummies
+end
 
 def square_array (nums)
   nums = [1,2,3]
