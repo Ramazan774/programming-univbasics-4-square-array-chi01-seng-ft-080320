@@ -15,4 +15,5 @@ while count < arrays.length do
 new_arrays.push(arrays[count]**2)
 count +=1
 end
+return new_arrays
 end
