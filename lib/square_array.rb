@@ -1,3 +1,19 @@
-def square_array(array)
-  # your code here
+def square_array(numbers)
+new_array = []
+counter =0
+while counter<numbers.length do
+new_array.push(numbers[counter]**2)
+counter +=1
+end
+end
+
+
+def squared_arrays (arrays)
+arrays = [1,2,3,4]
+new_arrays = []
+count =0
+while count < arrays.length do
+new_arrays.push(arrays[count]**2)
+count +=1
+end
 end
