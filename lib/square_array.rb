@@ -8,7 +8,7 @@ end
 end
 
 
-def squared_arrays (nums)
+def square_array (nums)
   nums = [1,2,3,4]
 new_nums = []
 counter =0
