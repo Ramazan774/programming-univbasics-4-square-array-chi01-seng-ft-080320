@@ -9,7 +9,7 @@ end
 
 
 def square_array (nums)
-  nums = [9,10,16,25]
+  nums = [1,2,3]
 new_nums = []
 counter =0
 while counter < nums.length do
