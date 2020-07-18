@@ -16,4 +16,4 @@ new_arrays.push(arrays[count]**2)
 count +=1
 end
 end
-p new_arrays[]
+p new_arrays()
