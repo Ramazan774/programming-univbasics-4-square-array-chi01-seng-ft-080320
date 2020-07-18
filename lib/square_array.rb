@@ -11,9 +11,9 @@ end
 def squared_arrays (arrays)
   arrays = [1,2,3,4]
 new_arrays = []
-count =0
+counter =0
 while count < arrays.length do
-new_arrays.push(arrays[count]**2)
+new_arrays.push(arrays[counter]**2)
 count +=1
 end
 return new_arrays
