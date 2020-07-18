@@ -19,13 +19,13 @@ end
 return new_nums
 end
 
-def square_array (nums)
-  nums = [9,10,16,25]
-new_nums = []
+def square_array (nummies)
+  nummies = [9,10,16,25]
+new_nummies = []
 counter =0
-while counter < nums.length do
-new_nums.push(nums[counter]**2)
+while counter < nummies.length do
+new_nummies.push(nummies[counter]**2)
 counter +=1
 end
-return new_nums
+return new_nummies
 end
